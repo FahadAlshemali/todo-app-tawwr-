@@ -1,4 +1,4 @@
-const Task = ({tasks}) => {
+const Task = ({task, checkDone, removeTask}) => {
 	return (
 		<div className='list' key={task.id}>
 			<li className={task.complete ? 'line-through' : ''}>{task.text}</li>
