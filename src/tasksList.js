@@ -1,6 +1,6 @@
 import Task from "./task";
 
-const TasksList = ({displayTasks, removeTask, }) => {
+const TasksList = ({displayTasks, removeTask, checkDone}) => {
 	return (
 		<ul>
 			{displayTasks().map(task => (
